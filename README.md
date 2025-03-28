@@ -25,25 +25,31 @@ Using AWS Glue DataBrew, I created and executed recipe jobs to clean and transfo
 Removed duplicates and missing values
 Standardized formats (e.g., facility names, accessibility indicators)
 Gained a better understanding of how transformation steps are applied and tracked in the AWS environment.
-
+![image](https://github.com/user-attachments/assets/8a425f96-7840-44db-aac3-e6d1af0b8c7a)
 
 **3. Storing and Managing Outputs**
 I stored the cleaned outputs in Amazon S3 in both Parquet (Snappy) and CSV formats. I learned that Parquet is more storage-efficient for analytics, while CSV is easier for manual review and reports.
+![image](https://github.com/user-attachments/assets/b82165d4-ea8c-4452-8ad8-64743d593485)
+![image](https://github.com/user-attachments/assets/43f9a9dc-86df-49e6-b694-bcabcd5927d5)
+![image](https://github.com/user-attachments/assets/cc206272-550a-4d90-8f50-b775985f411e)
 
 **4. Querying with AWS Athena**
 To explore the dataset further, I used AWS Athena:
 Ran SQL queries to check how many facilities were accessible
 Counted washrooms by region and facility type.
 Gained real-time insights without moving data outside S3
+![image](https://github.com/user-attachments/assets/0f3e629f-55e6-47a2-b6e9-4f29e38a3a63)
 
 **5. Security and Governance**
 To protect the data,
 Enabled server-side encryption with AWS KMS
 Configured bucket versioning to retain previous versions
 Enabled access logging to track who accessed which objects
+![image](https://github.com/user-attachments/assets/275ed9bd-7945-4c7a-8f67-5480a267d5d5)
 
 **6. Monitoring and Audit**
 I explored CloudWatch to monitor resource usage and saw how CloudTrail captures API activity for auditing. This was useful in tracking events and understanding usage patterns in the system.
+![image](https://github.com/user-attachments/assets/9b6a047d-e1a7-4bf9-aec1-10c11a8112bd)
 
 Overall, this project gave me hands-on experience in setting up a cloud-based descriptive analysis workflow. I not only learned how to use AWS tools effectively but also understood the importance of secure, automated, and scalable data handling in real-world scenarios.
 
