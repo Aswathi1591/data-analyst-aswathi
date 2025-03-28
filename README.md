@@ -26,6 +26,7 @@ Removed duplicates and missing values
 Standardized formats (e.g., facility names, accessibility indicators)
 Gained a better understanding of how transformation steps are applied and tracked in the AWS environment.
 
+
 **3. Storing and Managing Outputs**
 I stored the cleaned outputs in Amazon S3 in both Parquet (Snappy) and CSV formats. I learned that Parquet is more storage-efficient for analytics, while CSV is easier for manual review and reports.
 
