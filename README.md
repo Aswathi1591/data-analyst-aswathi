@@ -62,16 +62,12 @@ Based on my analysis and learnings, I would suggest the following improvements a
 
 **Improve Data Standardization**
 Use data validation rules or manual review to eliminate inconsistent naming and duplicate records, which can distort analysis.
-
 **Enhance Accessibility Reporting**
 Ensure every facility entry includes accessibility metadata, as this is critical for inclusive public service planning.
-
 **Increase Coverage in Underserved Areas**
 Consider expanding facility availability in suburban or rural zones to improve service equity and public hygiene access.
-
 **Use Parquet Format for Analytics**
 For future analytics, I recommend storing data in Parquet + Snappy, which provides better compression and performance for large datasets.
-
 **Automate Monitoring and Alerts**
 Set up SNS notifications with CloudWatch and CloudTrail for real-time visibility into job failures, unusual access patterns, or security events.
 
