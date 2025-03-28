@@ -18,7 +18,7 @@ In this project, I performed a descriptive analysis of the Public Washroom datas
 
 **1. Data Upload and Organization**
 I started by uploading the dataset to an Amazon S3 bucket. I learned how to structure the storage using folders, manage object permissions, and apply lifecycle rules to move infrequently accessed data to lower-cost storage like Glacier.
-
+![image](https://github.com/user-attachments/assets/ed1d61d1-f055-462b-8ad0-c7db1fccc99d)
 
 **2. Data Cleaning with AWS Glue DataBrew**
 Using AWS Glue DataBrew, I created and executed recipe jobs to clean and transform the dataset:
